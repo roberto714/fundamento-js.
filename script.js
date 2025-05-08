@@ -1,37 +1,18 @@
-
-for (let i = 1; i <= 10; i++){
-console.log(`passo: ${i}`)
+let senha = number(prompt("digite a senha:"));
+while(senha !== 1234){
+alert("acesso negado!");
+senha = number(prompt("senha invalida.tente novamente"));
 }
+alert("acesso permitido")
 
-for (let i = 2; i <= 20; i = i + 2){
-  console.log(`passo: ${i}`)
+let numero = 10;
+while(numero >= 1){
+console.log(numero);
+numero--;
 }
-
-for (let i = 1; i <= 10; i = i + 2){
-  console.log(`passo: ${i}`)
-}
-
-for (let i = 1; i <= 10; i++){
-  if(i >=10 %2 !== 0 ){
-    //ou if(i >=10 %2 === 1) para dar resultados impares.
-console.log(`passo: ${i}`)}
-}
-
-let numero = prompt("digite um numero");
-for(let i = 1; i <= 10; i++){
-  console.log(` o resultado ${numero * i}`) //para apenas resultado
-  // ou (`${numero} x ${i} = ${numero i* i}`) para aparcer todo calculo
-
-}
-
-
-
-
-
-
-
-
-
-
-
-      
+let palavra = prompt("digite uma palavra");
+let contador = 1;
+while(contador <= 5){
+console.log(palavra);
+contador++
+ }    

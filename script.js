@@ -1,8 +1,4 @@
-function boasvindas(nome,callback){
-    callback(nome);
-}
-
-function saudar(nome){
-    console.log(`olá,${nome}!`)
-}
-boasvindas("roberto",saudar);
+const numeros = [1,2,3,4,5,6];
+const pares = numeros.filter(numero => numero %2 === 0);
+        
+console.log(pares);
